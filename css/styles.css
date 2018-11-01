@@ -1,0 +1,42 @@
+
+
+header {
+    display:flex;
+    justify-content:space-evenly; /*using flex box*/
+}
+
+#timer{border-style:solid; 
+width:70px; 
+text-align: center;
+border-radius:30%;
+font-size:20px;}
+
+
+.dot {
+    height: 50px;
+    width: 50px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    line-height: 50px;
+    text-align: center; 
+
+  } 
+
+.correct-dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center;
+    background-color: green;
+}
+
+.incorrect-dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center;
+    background-color: red;
+}

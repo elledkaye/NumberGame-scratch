@@ -1,0 +1,41 @@
+
+<!-- DOCUMENTATION
+    Number game:
+    THe number game will include a 
+    -timer
+    -7 bubbles 
+    -when the user get's it correct the button will turn green otherwise the button will turn red 
+    -IF the user get's all the buttons correct before the time ends a pop up displays on the screen 
+    -IF the user runs out of time a pop up will still display  
+    -When you click start ->  button changes to restart (use a boolean value) to change color of buttons  
+
+--> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Number Game</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body onload ="setTimeLimit()">
+    <header>
+      
+  <button id ="play" value="start" name="Start" onclick="play(this)" style="width: 80px; height: 80px; border-radius: 30%;"> Start </button> 
+ 
+    <div id="timer"></div> 
+ 
+    </header>
+    <main id = 'playingField'> 
+           
+    </main> 
+
+ 
+    <script src="jss/scripts.js"></script> 
+  
+</body>
+</html>
